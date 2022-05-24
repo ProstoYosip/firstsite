@@ -1,0 +1,188 @@
+
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+.place {
+	width: 100%;
+	height: 820px;
+	background-color: black;
+}
+.hellobox {
+	color: white;
+	position: fixed;
+	left: 15px;
+	margin-top: 5px;
+	padding-top: 15px;
+	border: 2px solid blue;
+	border-radius: 5px;
+	text-align: center;
+	width: 97.5%;
+	height: 70px;
+	background-color: yellow;
+	font-family: 'Righteous', cursive;
+	font-weight: bold;
+	font-size: 30px;
+	z-index: 5;
+	background: url(../img/LeagueOfLegendsFon.jpg) no-repeat fixed;
+	background-size: 1350px 630px;
+}
+.box1 {
+	margin-left: 15px;
+	position: absolute; 
+	top: 100px;
+	left: 0px;
+	width: 30%;
+	height: 500px;
+	border: 2px solid blue;
+	border-radius: 5px;
+	background: url(../img/icons/warwick.jpg) no-repeat;
+	background-size: 100% 500px;
+}
+.namepersa {
+	position: absolute;
+	bottom: 200px;
+	left: 20px;
+	font-family: 'Righteous', cursive;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+}
+.img__1 {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	bottom: 130px;
+	left: 60px;
+}
+.img__2 {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	bottom: 70px;
+	left: 60px;
+}
+.statistika__1 {
+	color: white;
+	position: absolute;
+	font-size: 15px;
+	bottom: 130px;
+	left: 120px;
+	font-style: italic;
+}
+.statistika__2 {
+	color: white;
+	position: absolute;
+	font-size: 15px;
+	bottom: 70px;
+	left: 120px;
+	font-style: italic;
+}
+.moreinfo {
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+	font-size: 15px;
+	color: white;
+}
+.moreinfo:hover {
+	color: red;
+	font-size: 20px;
+}
+.box2 {
+	position: absolute;
+	top: 100px;
+	left: 35%;
+	width: 30%;
+	height: 500px;
+	border: 2px solid blue;
+	border-radius: 5px;
+	background: url(../img/wykong.jpg) no-repeat;
+	background-size: 100% 500px;
+}
+.box3 {
+	margin-right: 15px;
+	position: absolute;
+	top: 100px;
+	right: 0px;
+	width: 30%;
+	height: 500px;
+	border: 2px solid blue;
+	border-radius: 5px;
+	background: url(../img/Ari.jpg) no-repeat;
+	background-size: 100% 500px;
+}
+.bottom {
+	font-size: 19px;
+	padding-top: 25px;
+	width: 30%;
+	text-align: center;
+	font-style: italic;
+	border: 2px solid blue;
+	border-radius: 5px;
+	position: absolute;
+	top: 650px;
+	left: 0px;
+	height: 150px;
+	margin-left: 15px;
+	color: white;
+	font-weight: bold;
+}
+.questionnaire {
+	border: 2px solid blue;
+	border-radius: 5px;
+	position: absolute;
+	top: 650px;
+	left: 35%;
+	width: 30%;
+	height: 150px;
+	font-style: italic;
+	padding: 20px 15px;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
+.questionnaire a {
+	margin-left: 130px;
+	text-align: center;
+	color: blue;
+}
+.questionnaire a:hover {
+	color: red;
+	font-size: 22px;
+}
+.socialmedia {
+	position: absolute;
+	top: 650px;
+	right: 0px;
+	margin-right: 15px;
+	width: 30%;
+	height: 150px;
+	border: 2px solid blue;
+	border-radius: 5px;
+	font-size: 20px;
+	color: white;
+	padding: 40px 15px;
+	font-style: italic;
+}
+.socialmedia a {
+	color: blue;
+}
+.socialmedia a:hover {
+	color: red;
+	font-size: 21px;
+}
