@@ -1,0 +1,179 @@
+//Обнуление
+@import "nullstyle.scss";
+//шрифты
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+//body
+body {
+	max-width: 1600px;
+}
+//rectangle1
+.rectangle1 {
+	position: absolute;
+	width: 1600px;
+	height: 2496px;
+	background: #cacaca;
+	border-radius: 5px;
+	&__version {
+		position: absolute;
+		top: 26px;
+		right: 257px;
+		width: 221px;
+		height: 45px;
+		font-family: "Raleway";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 23px;
+		color: #ffffff;
+	}
+	&__version img {
+		margin: -45px 110px 37px 669px;
+		width: 306px;
+		height: 123px;
+	}
+}
+.image6 {
+	position: absolute;
+	bottom: 0px;
+	width: 1600px;
+	height: 1119px;
+	background: url(image.png);
+	filter: blur(10px);
+}
+.image1 {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 218px;
+	height: 1430px;
+	background: url(image.png);
+	filter: blur(10px);
+}
+.image2 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 244px;
+	height: 1430px;
+	background: url(image.png);
+	filter: blur(10px);
+}
+//rectangle2
+.rectangle2 {
+	position: absolute;
+	top: 161px;
+	left: 248px;
+	width: 1138px;
+	height: 2340px;
+	background: #ebebeb;
+	border-radius: 6px;
+	&__main {
+		position: absolute;
+		top: 15px;
+		left: 144px;
+		width: 921px;
+		height: 83px;
+		font-family: "Raleway";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 30px;
+		line-height: 35px;
+		color: #000000;
+		&.vector1 {
+			position: absolute;
+			top: 41px;
+			left: -7px;
+			width: 130px;
+			height: 0px;
+			border-bottom: 4px solid #dacd89;
+		}
+	}
+	&__community {
+		position: absolute;
+		top: 20px;
+		left: 349px;
+		width: 921px;
+		height: 83px;
+		font-family: "Raleway";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 23px;
+		color: #000000;
+	}
+	&__updates {
+		position: absolute;
+		top: 20px;
+		left: 624px;
+		width: 921px;
+		height: 83px;
+		font-family: "Raleway";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 23px;
+		color: #000000;
+	}
+	&__aboutus {
+		position: absolute;
+		top: 20px;
+		left: 905px;
+		width: 921px;
+		height: 83px;
+		font-family: "Raleway";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 25px;
+		color: #000000;
+	}
+}
+//rectangle3
+.rectangle3 {
+	&__grey {
+		z-index: 2;
+		position: absolute;
+		top: 474px;
+		left: 248px;
+		width: 1138px;
+		height: 499px;
+		background: #ebebeb;
+		border: 1px soq black;
+	}
+	&.background {
+		z-index: 1;
+		position: absolute;
+		top: 251px;
+		left: 248px;
+		width: 1138px;
+		height: 721px;
+		background-image: url(../img/rectangle2/image_5.png);
+		&-championname {
+			z-index: 2;
+			position: absolute;
+			top: 74px;
+			left: 42px;
+			width: 408px;
+			height: 31px;
+			font-family: "Raleway";
+			font-style: normal;
+			font-weight: 400;
+			font-size: 25px;
+			line-height: 29px;
+			color: #ebebeb;
+		}
+		&-lastchampion {
+			position: absolute;
+			top: 105px;
+			left: 42px;
+			width: 226px;
+			height: 64px;
+			font-family: "Raleway";
+			font-style: normal;
+			font-weight: 400;
+			font-size: 20px;
+			line-height: 23px;
+			color: #ebebeb;
+		}
+	}
+}
